@@ -25,13 +25,13 @@ import "github.com/exopulse/files"
 ## Function list
 ```go
 // FileExists return true if specified file exists.
-func FileExists(path string) bool
+func FileExists(path string) bool {}
 
 // ReadLines read file lines into a slice.
-func ReadLines(path string) ([]string, error)
+func ReadLines(path string) ([]string, error) {}
 
 // ReadBytes reads bytes from specified file or from STDIN if file name is empty.
-func ReadBytes(path string) ([]byte, error)
+func ReadBytes(path string) ([]byte, error) {}
 ```
 
 # About the project

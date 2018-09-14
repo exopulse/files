@@ -1,3 +1,4 @@
+// Package files contains common file operations.
 package files
 
 import (
